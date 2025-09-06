@@ -20,20 +20,17 @@
 ### Установка
 
 1. Клонируйте репозиторий:
-bash
+
 git clone <ваш-репозиторий>
 cd telegram-ai-bot
 Установите зависимости:
 
-bash
 pip install requests
 Настройте Ollama (установите хотя бы одну модель):
 
-bash
 ollama pull gemma2:9b
 Замените токен бота в файле test.py:
 
-python
 BOT_TOKEN = "ваш_токен_бота"
 Запустите бота:
 
